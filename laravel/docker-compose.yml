@@ -2,10 +2,7 @@ version: "2"
 
 services:
   app:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    image: digitalocean.com/php
+    image: app
     container_name: app
     restart: always
     tty: true
